@@ -1,6 +1,4 @@
-#from google.colab import files
 import pandas as pd
-#file=files.upload()
 X_train=pd.read_csv("xtrain.csv",header=None)
 Y_train=pd.read_csv("ytrain.csv",header=None)
 X_test=pd.read_csv("xtest.csv",header=None)
